@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>İş Bankası Kültür Yatınları</title>
+    <meta name="keywords" content="yayınevi, kitap, yeni kitaplar, edebiyat, yayın evi">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="gorseller/isbank-og-image.jpg" type="image/png" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <!-- owl stylesheets -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+        media="screen">
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <!--banner stylesheets-->
+    <link rel="stylesheet" href="css/style2.css">
+
+
+</head>
+
+<body>
+    <!-- header section start -->
+    <div class="header_section">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="logo" href="anasayfa.html"><img src="gorseller/logomavi1-removebg-preview.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="anasayfa.html">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="coksatanlar.html">Çok Satanlar</a>
+                    </li>
+
+                    <li class="dropdown" id="kitaplarMenu">
+                        <a href="kitaplarimiz.html" class="nav-link">Kitaplarımız</a>
+                        <div class="dropdown-content">
+                            <a href="coksatanlar.html">Çok Satanlar</a>
+                            <a href="tekrarbaski.html">Tekrar Baskılar</a>
+                            <a href="yenicikanlar.html">Yeni Çıkanlar</a>
+                            <a href="cocuk.html">Çocuk Kitapları</a>
+                        </div>
+                    </li>
+
+                    <li class="dropdown" id="kitaplarMenu">
+                        <a href="yazarlarimiz.html" class="nav-link">Yazarlarımız</a>
+                        <div class="dropdown-content">
+                            <a href="#yerli_yazarlar">Yerli Yazarlarımız</a>
+                            <a href="#yabanci_yazarlar">Yabancı Yazarlarımız</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="iletisim.html">Hakkımızda & İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- header section end -->
+
+    <!-- banner section end -->
+
+
+
+    <div class="movies_section layout_padding">
+
+        <div class="container">
+
+            <!-- Çok Satanlar bölümü içerisine eklenen grafikler -->
+
+            <div class="container">
+
+                <!-- Çok Satanlar başla -->
+
+                <!-- Çizgi Grafiği (Line Chart) -->
+                <div class="grafik-container">
+                    <canvas id="lineChart" width="400" height="200"></canvas>
+                </div>
+
+                <!-- Sütun Grafiği (Bar Chart) -->
+                <div class="grafik-container">
+                    <canvas id="barChart" width="400" height="200"></canvas>
+                </div>
+
+                <!-- Pasta Grafiği (Doughnut Chart) -->
+                <div class="grafik-container">
+                    <canvas id="doughnutChart" width="400" height="200"></canvas>
+                </div>
+
+                <!-- Alan Grafiği (Area Chart) -->
+                <div class="grafik-container">
+                    <canvas id="areaChart" width="400" height="200"></canvas>
+                </div>
+
+                <!-- Radar Grafiği (Radar Chart) -->
+                <div class="grafik-container">
+                    <canvas id="radarChart" width="400" height="200"></canvas>
+                </div>
+
+                <!-- Çok Satanlar bitti -->
+
+            </div>
+
+            <style>
+
+                .container{
+                    background-color: burlywood;
+                }
+                .grafik-container {
+                    margin-bottom: 20px;
+                    border: 1px solid #ccc;
+                    padding: 10px;
+                }
+            </style>
+
+
+
+        </div>
+    </div>
+
+    <!-- çok satanlar bitti -->
+
+    <!-- yeni çıkanlar başla -->
+
+
+
+
+
+
+    <!-- footer  section start -->
+    <div class="footer_section layout_padding">
+
+        <div class="footer_menu">
+            <ul>
+                <li><a href="anasayfa.html">Ana Sayfa</a></li>
+                <li><a href="coksatanlar.html">Çok Satanlar</a></li>
+                <li><a href="kitaplarimiz.html">Kitaplarımız</a></li>
+                <li><a href="yazarlarimiz.html">Yazarlarımız</a></li>
+            </ul>
+        </div>
+
+        <div class="social_icon">
+            <ul>
+                <li><a href="https://www.facebook.com/iskultur"><img src="images/fb-icon.png"></a></li>
+                <li><a href="https://twitter.com/iskultur"><img src="images/twitter-icon.png"></a></li>
+                <li><a href="https://www.instagram.com/isbankasikulturyayinlari/"><img
+                            src="images/instagram-icon.png"></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="adres">
+            <div class="harita">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.52014779664!2d28.980737075033424!3d41.03575301773424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7b93cbc3b91%3A0x1599743209ea584c!2zVMO8cmtpeWUgxLDFnyBCYW5rYXPEsSBLw7xsdMO8ciBZYXnEsW5sYXLEsQ!5e0!3m2!1str!2str!4v1699525930446!5m2!1str!2str"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="adres-kisim">
+                <p><b>Türkiye İş Bankası Kültür Yayınları İş Türk A.Ş.</b> <br>
+                    <b>Adres:</b> <i>İstiklal Caddesi Meşelik Sokak No:2 Kat:4 Beyoğlu / İstanbul</i> <br>
+                    Tel : +90 212 243 5600 (Hafta İçi Saat : 09:00 - 18:00 saatleri arasında) <br>
+                    Faks : +90 212 252 39 95
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <!-- footer  section end -->
+
+
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- javascript -->
+    <script src="js/owl.carousel.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <!-- chart js kütüphanesi -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        // Çizgi Grafiği (Line Chart)
+        var ctxLine = document.getElementById('lineChart').getContext('2d');
+        var lineChart = new Chart(ctxLine, {
+            type: 'line',
+            data: {
+                labels: ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz'],
+                datasets: [{
+                    label: 'Kitap Satışları',
+                    data: [10, 15, 25, 20, 30, 22, 18],
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 2,
+                    fill: false
+                }]
+            },
+            options: {
+                responsive: false,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    
+        // Sütun Grafiği (Bar Chart)
+        var ctxBar = document.getElementById('barChart').getContext('2d');
+        var barChart = new Chart(ctxBar, {
+            type: 'bar',
+            data: {
+                labels: ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz'],
+                datasets: [{
+                    label: 'Kitap Satışları',
+                    data: [10, 15, 25, 20, 30, 22, 18],
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: false,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    
+        // Pasta Grafiği (Doughnut Chart)
+        var ctxDoughnut = document.getElementById('doughnutChart').getContext('2d');
+        var doughnutChart = new Chart(ctxDoughnut, {
+            type: 'doughnut',
+            data: {
+                labels: ['Roman', 'Bilim Kurgu', 'Polisiye', 'Tarih', 'Fantastik'],
+                datasets: [{
+                    data: [30, 15, 20, 10, 25],
+                    backgroundColor: ['rgba(255, 99, 132, 0.7)', 'rgba(255, 205, 86, 0.7)', 'rgba(75, 192, 192, 0.7)', 'rgba(54, 162, 235, 0.7)', 'rgba(153, 102, 255, 0.7)']
+                }]
+            },
+            options: {
+                responsive: false,
+                maintainAspectRatio: false
+            }
+        });
+    
+        // Alan Grafiği (Area Chart)
+        var ctxArea = document.getElementById('areaChart').getContext('2d');
+        var areaChart = new Chart(ctxArea, {
+            type: 'line',
+            data: {
+                labels: ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz'],
+                datasets: [{
+                    label: 'Kitap Satışları',
+                    data: [10, 15, 25, 20, 30, 22, 18],
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1,
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: false,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    
+        // Radar Grafiği (Radar Chart)
+        var ctxRadar = document.getElementById('radarChart').getContext('2d');
+        var radarChart = new Chart(ctxRadar, {
+            type: 'radar',
+            data: {
+                labels: ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz'],
+                datasets: [{
+                    label: 'Kitap Satışları',
+                    data: [10, 15, 25, 20, 30, 22, 18],
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1,
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: false,
+                maintainAspectRatio: false,
+                scales: {
+                    r: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>
